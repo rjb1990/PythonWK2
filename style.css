@@ -1,0 +1,108 @@
+/* This is a Comment */
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:blanchedalmond;
+}
+#navbar a{
+    color:rgba(16, 88, 32, 0.87) ;
+}
+.creator {
+    display: flex;
+}
+.creator img{
+    margin-right: 20px;
+}
+.short {
+    width: 40%;
+}
+p {
+    color: black;
+    font-size: 15px;
+}
+
+h1 {
+    color: red;
+    font-size: 44px;
+    text-align: center;
+    
+}
+h2 {
+    color: purple;
+    font-size: 30px;
+    
+}
+h3 {
+    color: black;
+    font-size: 26px;
+    
+}
+h4 {
+    color: yellow;
+    font-size: 24px;
+    
+}
+h5 {
+    color: green;
+    font-size: 22px;
+    
+}
+h6 {
+    color: pink;
+    font-size: 18px;
+    
+}
+
+/* Style-Flags*/
+.container{
+    display: flex;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 100px;
+    /* Justify-content: Flex-start; */
+    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* justify-content: space-between */
+    /* justify-content: center; */
+    /* justify-content: flex-end */
+    /* text-align: center; */
+    font-size: 18px;
+    background-color: rgba
+}
+/* This is how to target a Element in HTML */
+
+/* elementtag {} */
+
+/* Background (Whole Page) */
+* {background-color: blanchedalmond;}
+
+/* Class Selector */
+/* This is how you target a specific class */
+.large {
+    font-size: 30px;
+}
+.small {
+    font-size: 12px;
+}
+/* Creating a class to specific color - Naming Convention */
+.makeMeRed {
+    color:red;
+}
+
+.html {
+    color:blueviolet;
+}
+/* HTML - <h1 class="makeMeRed">Section 1 </h1> */
+/* HTML - <h2 class="makeMeRed">Section 1 </h2> */
+/* HTML - <p1 class="makeMeRed">Section 1 </p1> */
+
+/* Text Alignment (Left, Center, Right */
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    display:flex;
+    justify-content: flex-end;
+}
